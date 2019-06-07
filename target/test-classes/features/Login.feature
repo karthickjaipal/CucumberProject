@@ -30,10 +30,10 @@ Then login page is not displayed
 Examples:
 
 |Username |password|
-|username1    |pwd1    |
-|username2    |pwd2    |
-|username3    |pwd3    |
-|username4    |pwd4    |
+|username2    |pwd1    |
+|username3    |pwd2    |
+|username4    |pwd3    |
+|username5    |pwd4    |
 
 
 
