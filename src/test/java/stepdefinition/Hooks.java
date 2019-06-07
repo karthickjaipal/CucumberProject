@@ -2,35 +2,25 @@ package stepdefinition;
 
 
 
+import org.openqa.selenium.WebDriver;
+
+import Cucumber.CucumberTutorial.openBrowser;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 
-public class Hooks{
-	
-	@Before("@Regressiontest")
-	public void beforetest()
-	{
-		System.out.println("I will be executed first");
-	}
-	
-	@After("@Regressiontest")
-	public void Aftertest()
-	{
-	
-		System.out.println("Execution completed");
-	}
+public class Hooks extends openBrowser{
 	
 	@Before("@Smoketest")
-	public void beforeretest()
+	public void beforetest()
 	{
-		System.out.println("I will be executed first");
+		openBrowser.openWebUrl();
 	}
 	
 	@After("@Smoketest")
-	public void Afterretest()
+	public void Afterretest() throws Throwable
 	{
-	
-		System.out.println("Execution completed");
+		driver.close();
+	    System.out.println("Execution completed");
 	}
 
 }

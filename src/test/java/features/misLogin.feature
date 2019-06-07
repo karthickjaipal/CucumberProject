@@ -25,5 +25,3 @@ Examples:
 
 |Username|Password   |
 |3933    |Kartic@9632|
-|3933    |Kartic@9632|
-|3933    |Kartic@9632|
