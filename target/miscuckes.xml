@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.142603">
+<testcase classname="MIS Login" name="User successful login" time="0.140758">
+<system-out><![CDATA[Given user is on MIS login page.............................................passed
+When user enters username "3933" password "Kartic@9632".....................passed
+Then homepage is displayed..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="MIS Login" name="User successful login" time="0.000464">
+<system-out><![CDATA[Given user is on MIS login page.............................................passed
+When user enters user1 and pwd1.............................................passed
+Then homepage is displayed..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="MIS Login" name="User successful login 2" time="0.000735">
+<system-out><![CDATA[Given user is on MIS login page.............................................passed
+When user enters user2 and pwd2.............................................passed
+Then homepage is displayed..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="MIS Login" name="User successful login 3" time="0.000646">
+<system-out><![CDATA[Given user is on MIS login page.............................................passed
+When user enters user3 and pwd3.............................................passed
+Then homepage is displayed..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

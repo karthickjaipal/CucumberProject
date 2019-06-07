@@ -1,0 +1,360 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 238743,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeretest()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User successful login",
+        "description": "",
+        "id": "mis-login;user-successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 69168,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Afterretest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 138063616,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on MIS login page",
+            "match": {
+              "location": "MISStepDefintion.user_is_on_mis_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2299960,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username \"3933\" password \"Kartic@9632\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3933",
+                  "offset": 22
+                },
+                {
+                  "val": "Kartic@9632",
+                  "offset": 38
+                }
+              ],
+              "location": "MISStepDefintion.user_enters_username_something_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86126,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "homepage is displayed",
+            "match": {
+              "location": "MISStepDefintion.homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoketest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 100852,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeretest()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "User successful login",
+        "description": "",
+        "id": "mis-login;user-successful-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 66938,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Afterretest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 108438,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on MIS login page",
+            "match": {
+              "location": "MISStepDefintion.user_is_on_mis_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133428,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters user1 and pwd1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 12
+                },
+                {
+                  "val": "pwd1",
+                  "offset": 22
+                }
+              ],
+              "location": "MISStepDefintion.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54442,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "homepage is displayed",
+            "match": {
+              "location": "MISStepDefintion.homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Smoketest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 81664,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeretest()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User successful login",
+        "description": "",
+        "id": "mis-login;user-successful-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 199472,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Afterretest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 95944,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on MIS login page",
+            "match": {
+              "location": "MISStepDefintion.user_is_on_mis_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175375,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters user2 and pwd2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 12
+                },
+                {
+                  "val": "pwd2",
+                  "offset": 22
+                }
+              ],
+              "location": "MISStepDefintion.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182515,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "homepage is displayed",
+            "match": {
+              "location": "MISStepDefintion.homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Smoketest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 205720,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeretest()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User successful login",
+        "description": "",
+        "id": "mis-login;user-successful-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 61582,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Afterretest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 178499,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on MIS login page",
+            "match": {
+              "location": "MISStepDefintion.user_is_on_mis_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149493,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters user3 and pwd3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user3",
+                  "offset": 12
+                },
+                {
+                  "val": "pwd3",
+                  "offset": 22
+                }
+              ],
+              "location": "MISStepDefintion.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50426,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "homepage is displayed",
+            "match": {
+              "location": "MISStepDefintion.homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "MIS Login",
+    "description": "",
+    "id": "mis-login",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/misLogin.feature"
+  }
+]
