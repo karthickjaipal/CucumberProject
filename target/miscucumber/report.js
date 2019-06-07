@@ -6,76 +6,8 @@ formatter.feature({
   "id": "mis-login",
   "keyword": "Feature"
 });
-formatter.before({
-  "duration": 238743,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 6,
-  "name": "User successful login",
-  "description": "",
-  "id": "mis-login;user-successful-login",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 5,
-      "name": "@Smoketest"
-    }
-  ]
-});
-formatter.step({
-  "line": 7,
-  "name": "user is on MIS login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "user enters username \"3933\" password \"Kartic@9632\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "homepage is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "MISStepDefintion.user_is_on_mis_login_page()"
-});
-formatter.result({
-  "duration": 138063616,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "3933",
-      "offset": 22
-    },
-    {
-      "val": "Kartic@9632",
-      "offset": 38
-    }
-  ],
-  "location": "MISStepDefintion.user_enters_username_something_password_something(String,String)"
-});
-formatter.result({
-  "duration": 2299960,
-  "status": "passed"
-});
-formatter.match({
-  "location": "MISStepDefintion.homepage_is_displayed()"
-});
-formatter.result({
-  "duration": 86126,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 69168,
-  "status": "passed"
-});
 formatter.scenarioOutline({
-  "line": 18,
+  "line": 19,
   "name": "User successful login",
   "description": "",
   "id": "mis-login;user-successful-login",
@@ -83,28 +15,28 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 17,
+      "line": 18,
       "name": "@Smoketest"
     }
   ]
 });
 formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "user is on MIS login page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "user enters \u003cUsername\u003e and \u003cPassword\u003e",
   "keyword": "When "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "homepage is displayed",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 23,
+  "line": 24,
   "name": "",
   "description": "",
   "id": "mis-login;user-successful-login;",
@@ -114,42 +46,42 @@ formatter.examples({
         "Username",
         "Password"
       ],
-      "line": 25,
+      "line": 26,
       "id": "mis-login;user-successful-login;;1"
     },
     {
       "cells": [
-        "user1",
-        "pwd1"
+        "3933",
+        "Kartic@9632"
       ],
-      "line": 26,
+      "line": 27,
       "id": "mis-login;user-successful-login;;2"
     },
     {
       "cells": [
-        "user2",
-        "pwd2"
+        "3933",
+        "Kartic@9632"
       ],
-      "line": 27,
+      "line": 28,
       "id": "mis-login;user-successful-login;;3"
     },
     {
       "cells": [
-        "user3",
-        "pwd3"
+        "3933",
+        "Kartic@9632"
       ],
-      "line": 28,
+      "line": 29,
       "id": "mis-login;user-successful-login;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 100852,
+  "duration": 243651,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 26,
+  "line": 27,
   "name": "User successful login",
   "description": "",
   "id": "mis-login;user-successful-login;;2",
@@ -157,19 +89,19 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 17,
+      "line": 18,
       "name": "@Smoketest"
     }
   ]
 });
 formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "user is on MIS login page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 20,
-  "name": "user enters user1 and pwd1",
+  "line": 21,
+  "name": "user enters 3933 and Kartic@9632",
   "matchedColumns": [
     0,
     1
@@ -177,7 +109,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "homepage is displayed",
   "keyword": "Then "
 });
@@ -185,43 +117,43 @@ formatter.match({
   "location": "MISStepDefintion.user_is_on_mis_login_page()"
 });
 formatter.result({
-  "duration": 108438,
+  "duration": 6580808502,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "user1",
+      "val": "3933",
       "offset": 12
     },
     {
-      "val": "pwd1",
-      "offset": 22
+      "val": "Kartic@9632",
+      "offset": 21
     }
   ],
   "location": "MISStepDefintion.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 133428,
+  "duration": 3436536691,
   "status": "passed"
 });
 formatter.match({
   "location": "MISStepDefintion.homepage_is_displayed()"
 });
 formatter.result({
-  "duration": 54442,
+  "duration": 99067,
   "status": "passed"
 });
 formatter.after({
-  "duration": 66938,
+  "duration": 68276,
   "status": "passed"
 });
 formatter.before({
-  "duration": 81664,
+  "duration": 101745,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 27,
+  "line": 28,
   "name": "User successful login",
   "description": "",
   "id": "mis-login;user-successful-login;;3",
@@ -229,19 +161,19 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 17,
+      "line": 18,
       "name": "@Smoketest"
     }
   ]
 });
 formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "user is on MIS login page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 20,
-  "name": "user enters user2 and pwd2",
+  "line": 21,
+  "name": "user enters 3933 and Kartic@9632",
   "matchedColumns": [
     0,
     1
@@ -249,7 +181,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "homepage is displayed",
   "keyword": "Then "
 });
@@ -257,43 +189,43 @@ formatter.match({
   "location": "MISStepDefintion.user_is_on_mis_login_page()"
 });
 formatter.result({
-  "duration": 95944,
+  "duration": 5412911010,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "user2",
+      "val": "3933",
       "offset": 12
     },
     {
-      "val": "pwd2",
-      "offset": 22
+      "val": "Kartic@9632",
+      "offset": 21
     }
   ],
   "location": "MISStepDefintion.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 175375,
+  "duration": 2521665538,
   "status": "passed"
 });
 formatter.match({
   "location": "MISStepDefintion.homepage_is_displayed()"
 });
 formatter.result({
-  "duration": 182515,
+  "duration": 85233,
   "status": "passed"
 });
 formatter.after({
-  "duration": 199472,
+  "duration": 43732,
   "status": "passed"
 });
 formatter.before({
-  "duration": 205720,
+  "duration": 74969,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 28,
+  "line": 29,
   "name": "User successful login",
   "description": "",
   "id": "mis-login;user-successful-login;;4",
@@ -301,19 +233,19 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 17,
+      "line": 18,
       "name": "@Smoketest"
     }
   ]
 });
 formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "user is on MIS login page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 20,
-  "name": "user enters user3 and pwd3",
+  "line": 21,
+  "name": "user enters 3933 and Kartic@9632",
   "matchedColumns": [
     0,
     1
@@ -321,7 +253,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "homepage is displayed",
   "keyword": "Then "
 });
@@ -329,35 +261,35 @@ formatter.match({
   "location": "MISStepDefintion.user_is_on_mis_login_page()"
 });
 formatter.result({
-  "duration": 178499,
+  "duration": 7968334278,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "user3",
+      "val": "3933",
       "offset": 12
     },
     {
-      "val": "pwd3",
-      "offset": 22
+      "val": "Kartic@9632",
+      "offset": 21
     }
   ],
   "location": "MISStepDefintion.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 149493,
+  "duration": 2364708697,
   "status": "passed"
 });
 formatter.match({
   "location": "MISStepDefintion.homepage_is_displayed()"
 });
 formatter.result({
-  "duration": 50426,
+  "duration": 52657,
   "status": "passed"
 });
 formatter.after({
-  "duration": 61582,
+  "duration": 48641,
   "status": "passed"
 });
 });

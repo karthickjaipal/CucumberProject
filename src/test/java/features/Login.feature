@@ -34,7 +34,7 @@ Examples:
 |username2    |pwd1    |
 |username2    |pwd1    |
 |username2    |pwd1    |
-|karthick J   |pwd1    |
+|karthick J    |pwd1    |
 
 
 

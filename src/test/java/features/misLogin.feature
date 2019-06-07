@@ -2,11 +2,12 @@ Feature: MIS Login
 
 
 
-@Smoketest
+
 Scenario: User successful login
 Given user is on MIS login page
 When user enters username "3933" password "Kartic@9632"
 Then homepage is displayed
+
 
 Scenario: User successful login
 Given user is on MIS login page
@@ -22,7 +23,7 @@ Then homepage is displayed
 
 Examples:
 
-|Username|Password|
-|user1   |pwd1    |
-|user2   |pwd2    |
-|user3   |pwd3    |
+|Username|Password   |
+|3933    |Kartic@9632|
+|3933    |Kartic@9632|
+|3933    |Kartic@9632|
