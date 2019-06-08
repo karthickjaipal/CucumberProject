@@ -55,7 +55,7 @@ public class MISStepDefintion extends openBrowser {
     	boolean ele=driver.findElement(By.cssSelector("div.thbs-logo")).isDisplayed();
     	if(ele==true)
     	{
-    	System.out.println("User successfully logged in....");
+    	System.out.println("User successfully logged into MIS....");
     	}
     	else
     	{
